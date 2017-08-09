@@ -1,0 +1,44 @@
+/* STYLES FOR Wiki Nav Menu */
+#wikinav{
+	float:right;
+	font-size:0.9em;
+	border:1px dotted #aaa;
+	padding:5px;
+	width:200px;
+	text-align:center;
+}
+/*remove site images from this list*/
+#content #wikinav li{list-style-image:none;}
+#content #wikinav ul{margin:0 0 0 20px;padding:0;}
+
+#wikinav li{list-style-type: circle;text-align:left; margin:0; padding:0;}
+#wikinav a{text-decoration:none;}
+#wikinav li.h1{margin-left:0;list-style-type: circle;}
+#wikinav li.h2{margin-left:1em;list-style-type: circle;}
+#wikinav li.h3{margin-left:2em;list-style-type: disc;}
+#wikinav li.h4{margin-left:3em;list-style-type: square;}
+#wikinav li.h5{margin-left:4em;list-style-type: circle;}
+
+.single-wiki h2,
+.single-wiki h3,
+.single-wiki h4,
+.single-wiki h5,
+.single-wiki h6{
+	display:inline;
+	margin-right:250px;
+}
+
+.unwiki{
+	color:#e00;
+	cursor:help;
+}
+.wikiupdate{
+	color:#e00;
+	background:#fffff5;
+	text-align:center;
+	border:1px solid #e00;
+	margin-right:250px;
+}
+
+
+
